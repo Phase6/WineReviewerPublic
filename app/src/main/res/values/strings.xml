@@ -21,6 +21,11 @@
     <string name="cellar_fragment_welcome_2">Record what you have in your personal collection by pressing the red button.</string>
     <string name="cellar_fragment_welcome_3">Sort your wines alphabetically, by rating, or by number of bottles with the button in the upper right corner.</string>
 
+    <!-- THESE STRINGS ARE FOR THE PUBLIC REPOSITORY VERSION ONLY -->
+    <string name="popular_fragment_diabled_1">Disabled for public repository</string>
+    <string name="popular_fragment_diabled_2">This fragment loads popular reviews from other users.</string>
+
+
     <string name="guide_title_red_varietals">Red Varietals</string>
     <string name="guide_title_red_appellations">Red Appellations</string>
     <string name="guide_title_white_varietals">White Varietals</string>

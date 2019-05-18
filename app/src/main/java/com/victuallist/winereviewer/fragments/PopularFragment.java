@@ -94,24 +94,23 @@ public class PopularFragment extends Fragment implements CoreReviewAdapter.Revie
         super.onResume();
 
 
-
-//        PersistentReviews model = ViewModelProviders.of(getActivity()).get(PersistentReviews.class);
-        PersistentReviews.Factory factory = new PersistentReviews.Factory(getActivity().getApplication());
-        PersistentReviews model = ViewModelProviders.of(this, factory).get(PersistentReviews.class);
-        model.getPopularReviews().observe(this, new Observer<ArrayList<CoreReviewObject>>() {
-            @Override
-            public void onChanged(@Nullable ArrayList<CoreReviewObject> coreReviewObjects) {
-                reviewsToDisplay = coreReviewObjects;
-
-                if(CURRENT_SORT_TYPE == SORT_DEFAULT_FAVORITE){
-                    sortReviewsByFavorite();
-                }else if (CURRENT_SORT_TYPE == SORT_DEFAULT_RATING){
-                    sortReviewsByRating();
-                }else{
-                    sortReviewsByRating();
-                }
-            }
-        });
+        //TODO: This code is commented out for the public version - without a proper url in PersistentReviews it will throw an error
+//        PersistentReviews.Factory factory = new PersistentReviews.Factory(getActivity().getApplication());
+//        PersistentReviews model = ViewModelProviders.of(this, factory).get(PersistentReviews.class);
+//        model.getPopularReviews().observe(this, new Observer<ArrayList<CoreReviewObject>>() {
+//            @Override
+//            public void onChanged(@Nullable ArrayList<CoreReviewObject> coreReviewObjects) {
+//                reviewsToDisplay = coreReviewObjects;
+//
+//                if(CURRENT_SORT_TYPE == SORT_DEFAULT_FAVORITE){
+//                    sortReviewsByFavorite();
+//                }else if (CURRENT_SORT_TYPE == SORT_DEFAULT_RATING){
+//                    sortReviewsByRating();
+//                }else{
+//                    sortReviewsByRating();
+//                }
+//            }
+//        });
     }
 
 

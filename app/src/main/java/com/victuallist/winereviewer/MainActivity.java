@@ -193,10 +193,10 @@ public class MainActivity extends AppCompatActivity implements LifecycleOwner {
             navigation.setSelectedItemId(R.id.navigation_popular_reviews);
         }
 
-        //TODO: START POINT FOR UPLOADING REVIEWS ANNONYMOUSLY
-        Runnable networkTest = new AnonymousReviewsUpload(this);
-        Thread runnableThread = new Thread(networkTest);
-        runnableThread.start();
+        //TODO: THIS CODE IS COMMENTED OUT FOR THE PUBLIC VERSION - WITHOUT A PROPER URL IN AnonymousReviewsUpload IT WILL THROW AN ERROR
+//        Runnable networkTest = new AnonymousReviewsUpload(this);
+//        Thread runnableThread = new Thread(networkTest);
+//        runnableThread.start();
     }
 
 
