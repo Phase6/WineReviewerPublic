@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/padding_sm"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_xl"
+            app:cardElevation="@dimen/basic_card_elevation">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding_md"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/guideDetailTextViewName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/review_card_text_primary"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+                <!--ORIGIN & LABEL-->
+                <TextView
+                    android:id="@+id/guideDetailTextViewOriginLabel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_md"
+                    android:textSize="@dimen/review_card_text_secondary"
+                    android:text="@string/guide_detail_label_origin"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/guideDetailTextViewOrigin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/padding_md"
+                    android:textSize="@dimen/review_card_text_secondary"
+                    android:textColor="@color/black"/>
+
+
+
+                <!--GRAPES & LABEL-->
+                <TextView
+                    android:id="@+id/guideDetailTextViewGrapesLabel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_md"
+                    android:textSize="@dimen/review_card_text_secondary"
+                    android:text="@string/guide_detail_label_grapes"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/guideDetailTextViewGrapes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_md"
+                    android:textSize="@dimen/review_card_text_secondary"
+                    android:textColor="@color/black"/>
+
+
+
+                <!--FLAVOR & LABEL-->
+                <TextView
+                    android:id="@+id/guideDetailTextViewFlavorLabel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_md"
+                    android:textSize="@dimen/review_card_text_secondary"
+                    android:text="@string/guide_detail_label_flavor"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/guideDetailTextViewFlavor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_md"
+                    android:textSize="@dimen/review_card_text_secondary"
+                    android:textColor="@color/black"/>
+
+
+
+                <!--PAIRING & LABEL-->
+                <TextView
+                    android:id="@+id/guideDetailTextViewPairingLabel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_md"
+                    android:textSize="@dimen/review_card_text_secondary"
+                    android:text="@string/guide_detail_label_pairing"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/guideDetailTextViewPairing"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_md"
+                    android:textSize="@dimen/review_card_text_secondary"
+                    android:textColor="@color/black"/>
+
+
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+
+    </ScrollView>
+
+
+
+</android.support.constraint.ConstraintLayout>

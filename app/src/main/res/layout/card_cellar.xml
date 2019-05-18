@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="@dimen/basic_card_elevation"
+    android:layout_marginBottom="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_sm">
+
+        <!--NAME ROW -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/cellarCardWineName"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="@dimen/review_card_text_primary"/>
+
+            <RatingBar
+                android:id="@+id/cellarCardReviewBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                style="?android:attr/ratingBarStyleSmall"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/cellarCardRateButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:textColor="@color/colorPrimary"
+                android:text="@string/rate_cellar_item_button"/>
+
+        </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/cellarCardLinearLayoutMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <!--VINEYARD AND VARIETAL ROW -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/cellarCardWineVineyard"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="@dimen/review_card_text_primary"/>
+
+            <TextView
+                android:id="@+id/cellarCardWineVarietal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="@dimen/review_card_text_primary"/>
+
+
+        </LinearLayout>
+
+        <!--ORIGIN AND VINTAGE ROW -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/cellarCardWineOrigin"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="@dimen/review_card_text_primary"/>
+
+            <TextView
+                android:id="@+id/cellarCardWineVintage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="@dimen/review_card_text_primary"/>
+
+
+        </LinearLayout>
+
+        <!--PRICE AND LABEL ROW -->
+        <LinearLayout
+            android:id="@+id/cellarCardLinearLayoutPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/cellarCardWinePriceLabel"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="@dimen/review_card_text_secondary"
+                android:text="@string/label_price"/>
+
+            <TextView
+                android:id="@+id/cellarCardWinePrice"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="@dimen/review_card_text_secondary"/>
+
+        </LinearLayout>
+
+        <!--BOTTLES AND LABEL ROW -->
+        <LinearLayout
+            android:id="@+id/cellarCardLinearLayoutBottles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/cellarCardWinePriceBottles"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="@dimen/review_card_text_secondary"
+                android:text="@string/label_bottles"/>
+
+            <TextView
+                android:id="@+id/cellarCardWineBottles"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="@dimen/review_card_text_secondary"/>
+
+        </LinearLayout>
+
+        <!--SIZE AND LABEL ROW -->
+        <LinearLayout
+            android:id="@+id/cellarCardLinearLayoutSize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/cellarCardWineSizeLabel"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="@dimen/review_card_text_secondary"
+                android:text="@string/label_size"/>
+
+            <TextView
+                android:id="@+id/cellarCardWineSize"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="@dimen/review_card_text_secondary"/>
+
+        </LinearLayout>
+
+        <!--BUY DATE AND LABEL ROW -->
+        <LinearLayout
+            android:id="@+id/cellarCardLinearLayoutBuyDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/cellarCardWineBuyDateLabel"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="@dimen/review_card_text_secondary"
+                android:text="@string/label_buy_date"/>
+
+            <TextView
+                android:id="@+id/cellarCardWineBuyDate"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="@dimen/review_card_text_secondary"/>
+
+        </LinearLayout>
+
+        <!--LOCATION AND LABEL ROW -->
+        <LinearLayout
+            android:id="@+id/cellarCardLinearLayoutLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/cellarCardWineLocationLabel"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="@dimen/review_card_text_secondary"
+                android:text="@string/label_location"/>
+
+            <TextView
+                android:id="@+id/cellarCardWineLocation"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="@dimen/review_card_text_secondary"/>
+
+        </LinearLayout>
+
+        <!--DRINK BY AND LABEL ROW -->
+        <LinearLayout
+            android:id="@+id/cellarCardLinearLayoutDrinkBy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/cellarCardWineDrinkByLabel"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="@dimen/review_card_text_secondary"
+                android:text="@string/label_drink_by"/>
+
+            <TextView
+                android:id="@+id/cellarCardWineDrinkBy"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="@dimen/review_card_text_secondary"/>
+
+        </LinearLayout>
+
+        <!--VALUE AND LABEL ROW -->
+        <LinearLayout
+            android:id="@+id/cellarCardLinearLayoutValue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/cellarCardWineValueLabel"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="@dimen/review_card_text_secondary"
+                android:text="@string/label_value"/>
+
+            <TextView
+                android:id="@+id/cellarCardWineValue"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="@dimen/review_card_text_secondary"/>
+
+        </LinearLayout>
+
+        <!--NOTES AND LABEL ROW -->
+        <LinearLayout
+            android:id="@+id/cellarCardLinearLayoutNotes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/cellarCardWineNotesLabel"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="@dimen/review_card_text_secondary"
+                android:text="@string/label_notes"/>
+
+            <TextView
+                android:id="@+id/cellarCardWineNotes"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="@dimen/review_card_text_secondary"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
+
+

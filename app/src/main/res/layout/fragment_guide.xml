@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--REDS VARIETALS CARD -->
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardElevation="@dimen/basic_card_elevation"
+                android:layout_marginBottom="@dimen/margin_md">
+
+                <LinearLayout
+                    android:id="@+id/redVarietalsLinearLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/padding_md"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/review_card_text_primary"
+                        android:textColor="@color/black"
+                        android:text="@string/guide_title_red_varietals" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <!--REDS APPELLATIONS CARD -->
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardElevation="@dimen/basic_card_elevation"
+                android:layout_marginBottom="@dimen/margin_md">
+
+                <LinearLayout
+                    android:id="@+id/redAppellationsLinearLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/padding_md"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/review_card_text_primary"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"
+                        android:text="@string/guide_title_red_appellations" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <!--WHITES VARIETALS CARD -->
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardElevation="@dimen/basic_card_elevation"
+                android:layout_marginBottom="@dimen/margin_md">
+
+                <LinearLayout
+                    android:id="@+id/whiteVarietalsLinearLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/padding_md"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/review_card_text_primary"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"
+                        android:text="@string/guide_title_white_varietals" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <!--WHITES APPELLATIONS CARD -->
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardElevation="@dimen/basic_card_elevation"
+                android:layout_marginBottom="@dimen/margin_md">
+
+                <LinearLayout
+                    android:id="@+id/whiteAppellationsLinearLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/padding_md"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/review_card_text_primary"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"
+                        android:text="@string/guide_title_white_appellations" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <!--BUBBLES CARD -->
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardElevation="@dimen/basic_card_elevation"
+                android:layout_marginBottom="@dimen/margin_md">
+
+                <LinearLayout
+                    android:id="@+id/bubblesLinearLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/padding_md"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/review_card_text_primary"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"
+                        android:text="@string/guide_title_bubbles" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <!--FORTIFIED CARD -->
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardElevation="@dimen/basic_card_elevation"
+                android:layout_marginBottom="@dimen/margin_md">
+
+                <LinearLayout
+                    android:id="@+id/fortifiedWineLinearLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/padding_md"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/review_card_text_primary"
+                        android:textColor="@color/black"
+                        android:textAlignment="center"
+                        android:text="@string/guide_title_fortified" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

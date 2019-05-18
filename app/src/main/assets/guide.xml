@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<guide>
+
+    <!--RED VARIETALS-->
+    <wine>
+        <type>Red Varietal</type>
+        <variety>Barbera</variety>
+        <origin></origin>
+        <grapes></grapes>
+        <flavor>Fruity, acidic, and low tannins.</flavor>
+        <pairing>Pairs well with many dishes. Suitable for pizza, pasta, rich meat dishes, and hard cheeses.</pairing>
+    </wine>
+
+    <wine>
+        <type>Red Varietal</type>
+        <variety>Cabernet Franc</variety>
+        <origin></origin>
+        <grapes></grapes>
+        <flavor>Spicy aroma, peppery accents, blueberry, raspberry, and plum. </flavor>
+        <pairing>Beef, poultry, and tomato based sauces.</pairing>
+    </wine>
+
+    <wine>
+        <type>Red Varietal</type>
+        <variety>Cabernet Sauvignon</variety>
+        <origin></origin>
+        <grapes></grapes>
+        <flavor>High tannins and ranging from medium to full bodied. Flavors of plum, cherry, blackberry, and blueberry. Sometimes vanilla and/or tobacco aromas and flavors.</flavor>
+        <pairing>Red meats, lamb, hearty pastas, strongly-flavored cheeses, and dark chocolate.</pairing>
+    </wine>
+
+    <wine>
+        <type>Red Varietal</type>
+        <variety>Carignan</variety>
+        <origin></origin>
+        <grapes></grapes>
+        <flavor>Light, with hints of cherry. Often mixed with other varietals.</flavor>
+        <pairing>Works well with heavier dishes.</pairing>
+    </wine>
+
+    <wine>
+        <type>Red Varietal</type>
+        <variety>Dolcetto</variety>
+        <origin></origin>
+        <grapes></grapes>
+        <flavor>Best consumed young (not suitable for aging). Fruity with low tannins. Bright reddish-purple with aromas of berries and plum.</flavor>
+        <pairing>Versatile with food. Can be paired with, and not overwhelm, light dishes but can also stand up to heartier fare. </pairing>
+    </wine>
+
+    <wine>
+        <type>Red Varietal</type>
+        <variety>Gamay</variety>
+        <origin></origin>
+        <grapes></grapes>
+        <flavor>Fruity, medium to full-bodied. Taste and smell are affected by processing technique (particularly with Beaujolais Nouveau, which tends to be highly acidic and assertive).</flavor>
+        <pairing>Poultry and fish dishes.</pairing>
+    </wine>
+
+    <wine>
+        <type>Red Varietal</type>
+        <variety>Grenache</variety>
+        <origin></origin>
+        <grapes></grapes>
+        <flavor>Ranging from light and fruity to full-bodied and heavy. Suitable for immediate consumption and aging.</flavor>
+        <pairing>Broad range of meat dishes.</pairing>
+    </wine>
+
+    <wine>
+        <type>Red Varietal</type>
+        <variety>Malbec</variety>
+        <origin></origin>
+        <grapes></grapes>
+        <flavor>Dry, hight tannins and acidity, ranging from medium to full bodied. Flavors of plum, black cherry, blackberry. Earthy and smoky, with hints of black pepper, leather and tobacco.</flavor>
+        <pairing>Red meats, game, lamb, and meat-driven dishes. Stands up well with spicy dishes.</pairing>
+    </wine>
+
+    <wine>
+        <type>Red Varietal</type>
+        <variety>Merlot</variety>
+        <origin></origin>
+        <grapes></grapes>
+        <flavor>Lower tannins than other reds. Plums, cherries, blueberries, blackberries, cocoa, and black pepper.</flavor>
+        <pairing>Versatile. Red meat, pork, poultry, pastas, and vegetables.</pairing>
+    </wine>
+
+    <wine>
+        <type>Red Varietal</type>
+        <variety>Mourvedre</variety>
+        <origin></origin>
+        <grapes></grapes>
+        <flavor>Full-bodied with high tannins. Not regularly bottled alone. When produced as a varietal, it benefits from further aging.</flavor>
+        <pairing>Hearty dishes, including stews and other meat-rich dishes.</pairing>
+    </wine>
+
+    <wine>
+        <type>Red Varietal</type>
+        <variety>Nebbiolo</variety>
+        <origin></origin>
+        <grapes></grapes>
+        <flavor>Full-bodied with high tannins.</flavor>
+        <pairing>Stews and grilled meats. Dry and aged strongly-flavored cheeses.</pairing>
+    </wine>
+
+    <wine>
+        <type>Red Varietal</type>
+        <variety>Petite Sirah</variety>
+        <origin></origin>
+        <grapes></grapes>
+        <flavor>Dense blackberry. Black pepper notes and licorice.</flavor>
+        <pairing>Red meats (roasted and grilled).</pairing>
+    </wine>
+
+    <wine>
+        <type>Red Varietal</type>
+        <variety>Pinot Noir</variety>
+        <origin></origin>
+        <grapes></grapes>
+        <flavor>Dry often with notes of strawberry, raspberry, cherry and blackberry. Earthy notes of mushroom and leather and spice notes of cinnamon, clove, and smoky.</flavor>
+        <pairing>Very versatile. Pairs well with beef, bacon, pork, lamb, and fish. Compliments many cheeses, cream sauces, and chocolate.</pairing>
+    </wine>
+
+    <wine>
+        <type>Red Varietal</type>
+        <variety>Pinotage</variety>
+        <origin></origin>
+        <grapes></grapes>
+        <flavor>Black fruit flavors.</flavor>
+        <pairing>Hearty soups and stews. Meat dishes.</pairing>
+    </wine>
+
+    <wine>
+        <type>Red Varietal</type>
+        <variety>Sangiovese</variety>
+        <origin></origin>
+        <grapes></grapes>
+        <flavor>Delicate in smell and flavor. Rarely bottled alone and, as a result, wines produced with this grape vary depending on what other grapes have been included. Often mixed with Cabernet Sauvignon to produce wines referred to as Super Tuscans. Also, the dominant varietal in Chianti wines.</flavor>
+        <pairing>Works well with classic Italian foods.</pairing>
+    </wine>
+
+    <wine>
+        <type>Red Varietal</type>
+        <variety>Syrah</variety>
+        <origin></origin>
+        <grapes></grapes>
+        <flavor>Medium to full bodied, medium tannins but smooth. Tastes of black cherries, blackberries, plums, black pepper, clove, licorice, and dark chocolate.</flavor>
+        <pairing>Grilled meats and vegetables, hearty stews and spicy dishes.</pairing>
+    </wine>
+
+    <wine>
+        <type>Red Varietal</type>
+        <variety>Tempranillo</variety>
+        <origin></origin>
+        <grapes></grapes>
+        <flavor>More acids than tannins. Flavors of plum, cherry, and strawberry.</flavor>
+        <pairing>Versatile. Best paired with simple meat and vegetable dishes.</pairing>
+    </wine>
+
+    <wine>
+        <type>Red Varietal</type>
+        <variety>Zinfandel</variety>
+        <origin></origin>
+        <grapes></grapes>
+        <flavor>Medium to full-bodied. Fresh berries, peppery, and occasionally notes of citrus. Smell (the nose) is often fruity.</flavor>
+        <pairing>Grilled meats. 72% Dark Bittersweet Chocolate.</pairing>
+    </wine>
+
+
+
+
+
+    <!--RED APPELLATIONS -->
+    <wine>
+        <type>Red Appellation</type>
+        <variety>Bordeaux</variety>
+        <origin>Bordeaux, France</origin>
+        <grapes>Permitted grapes in red Bordeaux: Cabernet Sauvignon, Cabernet Franc, Merlot, Petit Verdot, Malbec and Carmenere. The most general or Bordeaux Blend is comprised of 70% Cabernet Sauvignon, 15% Cabernet Franc, and 15% Merlot. Though, other combinations are common.</grapes>
+        <flavor>A typical Bordeaux Blend wine will exhibit dark berries and will be high in tannins.</flavor>
+        <pairing>Consider pairing with rich meat dishes.</pairing>
+    </wine>
+
+    <wine>
+        <type>Red Appellation</type>
+        <variety>Chianti</variety>
+        <origin>Central Tuscany, Italy</origin>
+        <grapes>75-100% Sangiovese. Possibly mixed with Canaiolo, Cabernet Sauvignon, Merlot, or Syrah.</grapes>
+        <flavor>Generally dry and ranging from light to full-bodied. Often exhibiting the flavor of cherries.</flavor>
+        <pairing>Italian fare (particularly pasta with red sauce), beef and chicken dishes.</pairing>
+    </wine>
+
+    <wine>
+        <type>Red Appellation</type>
+        <variety>Cotes du Rhone</variety>
+        <origin>Rhone wine region, France</origin>
+        <grapes>Although many varieties of grape are permitted in red Cotes du Rhone, the primary three varieties are Grenache Noir, Mourvedre, and Syrah.</grapes>
+        <flavor>Cherry, plum, and pepper.</flavor>
+        <pairing>Versatile. Pairs well with meat dishes, grilled fish, pasta, and pizza.</pairing>
+    </wine>
+
+    <wine>
+        <type>Red Appellation</type>
+        <variety>Ribera del Duero</variety>
+        <origin>North-Central, Spain</origin>
+        <grapes>75% or more Tempranillo (locally called Tinto Fino) is required in red wines from this region.</grapes>
+        <flavor>These wines age well and exhibit flavors of plum, cherry, and strawberry.</flavor>
+        <pairing>Versatile. Best paired with simple meat and vegetable dishes.</pairing>
+    </wine>
+
+    <wine>
+        <type>Red Appellation</type>
+        <variety>Rioja</variety>
+        <origin>La Rioja, Navarre, and Basque, Spain</origin>
+        <grapes>Mostly Tempranillo. Sometimes mixed with Garnacha Tinta, Graciano, or Mazuelo.</grapes>
+        <flavor>Exhibit flavors of plum, cherry, and strawberry. Oakiness is a distinguishing flavor of red Riojas.</flavor>
+        <pairing>Versatile. Best paired with simple meat and vegetable dishes.</pairing>
+    </wine>
+
+    <wine>
+        <type>Red Appellation</type>
+        <variety>Valpolicella</variety>
+        <origin>Veneto, Italy</origin>
+        <grapes>Corvina, Veronese, Rondinella.</grapes>
+        <flavor>Valpolicella is light and fruity with flavors of tart cherry and spice.</flavor>
+        <pairing>Beef, pork, and pasta with red sauce.</pairing>
+    </wine>
+
+
+
+
+
+    <!--WHITE VARIETALS-->
+    <wine>
+        <type>White Varietal</type>
+        <variety>Chardonnay</variety>
+        <origin></origin>
+        <grapes></grapes>
+        <flavor>Flavors that can include buttery, oaky, apple, pear, citrus, and melon.</flavor>
+        <pairing>Poultry, pork, seafood, and dishes with a cream or butter base. 31% Milk Chocolate.</pairing>
+    </wine>
+
+    <wine>
+        <type>White Varietal</type>
+        <variety>Chenin Blanc</variety>
+        <origin></origin>
+        <grapes></grapes>
+        <flavor>Acidic and ranging from very dry to sweet. Notes of citrus, apple, pear, and peach.</flavor>
+        <pairing>Greens and a variety of cheeses.</pairing>
+    </wine>
+
+    <wine>
+        <type>White Varietal</type>
+        <variety>Gewurztraminer</variety>
+        <origin></origin>
+        <grapes></grapes>
+        <flavor>Dry with a sweet smell including scents of lychee and grapefruit. Low acidity with high alcohol content. </flavor>
+        <pairing>Works well with rich dishes and spicy cuisine.</pairing>
+    </wine>
+
+    <wine>
+        <type>White Varietal</type>
+        <variety>Gruner Veltline</variety>
+        <origin></origin>
+        <grapes></grapes>
+        <flavor>Acidic and minerally. Citrus and spice.</flavor>
+        <pairing>Chicken, fish, and asparagus.</pairing>
+    </wine>
+
+    <wine>
+        <type>White Varietal</type>
+        <variety>Marsanne</variety>
+        <origin></origin>
+        <grapes></grapes>
+        <flavor>Melon and pear, with a light color. Normally blended with other grapes to produce both red and white wines (particularly of the Hermitage appellation).</flavor>
+        <pairing>Seafood.</pairing>
+    </wine>
+
+    <wine>
+        <type>White Varietal</type>
+        <variety>Muscat</variety>
+        <origin></origin>
+        <grapes></grapes>
+        <flavor>Ranging from light and dry to sweet. Peach and apricot and sometimes herbal notes.</flavor>
+        <pairing>For dry muscat: melon and prosciutto. For sweet muscat: Gorgonzola.</pairing>
+    </wine>
+
+    <wine>
+        <type>White Varietal</type>
+        <variety>Pinot Blanc</variety>
+        <origin></origin>
+        <grapes></grapes>
+        <flavor>Medium-dry to dry with high acidity. Citrus, melon, pear, and apricot.</flavor>
+        <pairing>Simply prepared meats, seafood, light sauces, and mild cheeses.</pairing>
+    </wine>
+
+    <wine>
+        <type>White Varietal</type>
+        <variety>Pinot Grigio</variety>
+        <origin></origin>
+        <grapes></grapes>
+        <flavor>Melon, pear, and subtle citrus. Acidic.</flavor>
+        <pairing>Works well with light pastas, seafood dishes, and cheese. Acidic foods not recommended.</pairing>
+    </wine>
+
+    <wine>
+        <type>White Varietal</type>
+        <variety>Riesling</variety>
+        <origin></origin>
+        <grapes></grapes>
+        <flavor>Spans a broad range from dry to sweet, light to full-bodied. Apple, peach, pear, floral, and honey flavors.</flavor>
+        <pairing>Due to the variety of flavors, Rieslings can pair well with a wide range of dishes (savory to sweet). It can also handle spicy cuisines.</pairing>
+    </wine>
+
+    <wine>
+        <type>White Varietal</type>
+        <variety>Roussanne</variety>
+        <origin></origin>
+        <grapes></grapes>
+        <flavor>Rich and dry.</flavor>
+        <pairing>Seafood and cheese.</pairing>
+    </wine>
+
+    <wine>
+        <type>White Varietal</type>
+        <variety>Sauvignon Blanc</variety>
+        <origin></origin>
+        <grapes></grapes>
+        <flavor>Light to medium-bodied, crisp, and acidic. Grassy, herbal, and notes of citrus.</flavor>
+        <pairing>Seafood, goat cheese, artichokes, and butter-based sauces. 31% Milk Chocolate.</pairing>
+    </wine>
+
+    <wine>
+        <type>White Varietal</type>
+        <variety>Semillion</variety>
+        <origin></origin>
+        <grapes></grapes>
+        <flavor>Ranging from dry to sweet.</flavor>
+        <pairing>Dry: poultry and seafood. Sweet: foie gras.</pairing>
+    </wine>
+
+    <wine>
+        <type>White Varietal</type>
+        <variety>Tocai Friulano</variety>
+        <origin></origin>
+        <grapes></grapes>
+        <flavor>Acidic, minerally, and fruity.</flavor>
+        <pairing>Seafood.</pairing>
+    </wine>
+
+    <wine>
+        <type>White Varietal</type>
+        <variety>Trebbiano</variety>
+        <origin></origin>
+        <grapes></grapes>
+        <flavor>Crisp and citrusy. Often with a bitter finish.</flavor>
+        <pairing>Seafood, poultry, and pork dishes.</pairing>
+    </wine>
+
+    <wine>
+        <type>White Varietal</type>
+        <variety>Viognier</variety>
+        <origin></origin>
+        <grapes></grapes>
+        <flavor>Delicate sweetness and aromatic.</flavor>
+        <pairing>Shellfish and spicy food.</pairing>
+    </wine>
+
+
+
+
+
+    <!--WHITE APPELLATIONS -->
+    <wine>
+        <type>White Appellation</type>
+        <variety>Chablis</variety>
+        <origin>Burgundy, France</origin>
+        <grapes>Chardonnay</grapes>
+        <flavor>Acidic. Less fruity and oaky than other Chardonnay-based wine.</flavor>
+        <pairing>Poultry, seafood, and cheeses.</pairing>
+    </wine>
+
+    <wine>
+        <type>White Appellation</type>
+        <variety>Rioja <white></white></variety>
+        <origin>La Rioja, Navarre, and Basque, Spain</origin>
+        <grapes>Viura (Macabeo) is the most used. It is sometimes blended with Malvasia or Garnacha Blanca.</grapes>
+        <flavor>Fruity and acidic.</flavor>
+        <pairing>Poultry, fish, mushrooms, and dishes with fruit. Makes a good base for white sangria and kirs.</pairing>
+    </wine>
+
+    <wine>
+        <type>White Appellation</type>
+        <variety>Sancerre</variety>
+        <origin>Eastern Loire Valley, France</origin>
+        <grapes>Sauvignon Blanc</grapes>
+        <flavor>Most are unoaked. Dry with flavors of peach, but there is variation.</flavor>
+        <pairing>Seafood, assertive dishes, and goat cheese.</pairing>
+    </wine>
+
+
+
+
+
+    <!--SPARKLING WINES-->
+    <wine>
+        <type>Sparkling Wine</type>
+        <variety>Asti</variety>
+        <origin>Italian</origin>
+        <grapes>Moscato Bianco (related to Muscat)</grapes>
+        <flavor>Sweet, with a lower alcohol content.</flavor>
+        <pairing>Dessert.</pairing>
+    </wine>
+
+    <wine>
+        <type>Sparkling Wine</type>
+        <variety>Cava</variety>
+        <origin>Spanish</origin>
+        <grapes>Often Macabeu or Parellada.</grapes>
+        <flavor>Ranging from dry to sweet. Often light, crisp, and citrusy.</flavor>
+        <pairing>Works well with fried and spicy food.</pairing>
+    </wine>
+
+    <wine>
+        <type>Sparkling Wine</type>
+        <variety>Champagne</variety>
+        <origin>French (Champagne region)</origin>
+        <grapes>Pinot noir, Chardonnay, Pinot Meunier.</grapes>
+        <flavor>Ranging from extra dry (brut) to sweet (doux). Champagne can benefit from further aging in the bottle.</flavor>
+        <pairing>Due to the variation in its flavors, it can pair well with many savory and sweet dishes... and, of course, ostentatious celebration.</pairing>
+    </wine>
+
+    <wine>
+        <type>Sparkling Wine</type>
+        <variety>Prosecco</variety>
+        <origin>Italian</origin>
+        <grapes>Glera grapes</grapes>
+        <flavor>Generally dry or extra dry. Crisp and light with notes of fruit. Should be consumed young as aging does not positively affect proseccos.</flavor>
+        <pairing>Often consumed as an aperitif and an ingredient in Bellinis. Also pairs nicely with beta-testing an android app.</pairing>
+    </wine>
+
+
+
+
+    <!--FORTIFIED WINES-->
+    <wine>
+        <type>Fortified Wine</type>
+        <variety>Madeira</variety>
+        <origin>Portuguese (Madeira islands)</origin>
+        <grapes>Though many types of grapes may be used, four types dominate Madeira production: Malvasia, Bual, Verdelho, and Sercial.</grapes>
+        <flavor>Ranging from dry to sweet. One of the most stable wines as it can withstand storage at higher temperatures.</flavor>
+        <pairing>Often consumed as an aperitif or digestif. Also used in cooking.</pairing>
+    </wine>
+
+    <wine>
+        <type>Fortified Wine</type>
+        <variety>Marsala</variety>
+        <origin>Italian (Sicily)</origin>
+        <grapes>Grillo, Inzolia, and Catarratto (among other varieties).</grapes>
+        <flavor>There are a variety of types, but typically sweet.</flavor>
+        <pairing>Can be consumed as an aperitif. Also pairs well with strong cheeses like Parmesan, Gorgonzola, and Roquefort. It also pairs well with fruits and desserts. Marsala is also an ingredient in savory dishes (chicken marsala) and in desserts (zabaglione).</pairing>
+    </wine>
+
+    <wine>
+        <type>Fortified Wine</type>
+        <variety>Port</variety>
+        <origin>Portuguese</origin>
+        <grapes>Although many types of grapes are permitted in production, usually only a few varieties are used. Red ports generally use Tinta Barroca, Tinta Cao, Tinta Roriz (Tempranillo), Touriga Francesa, and Touriga Nacional. White ports typically use Donzelinho Branco, Esgana-Cao, Folgasao, Gouveio, Malvasia, Rabigato, Viosinho.</grapes>
+        <flavor>Tawny ports are typically medium-dry to sweet. Ruby ports tend to be fruitier and sweeter.</flavor>
+        <pairing>Consumed as an aperitif or as a dessert wine.</pairing>
+    </wine>
+
+    <wine>
+        <type>Fortified Wine</type>
+        <variety>Sherry</variety>
+        <origin>Spain</origin>
+        <grapes>Dry varieties are made with Palomino grapes and sweet varieties are made from Pedro Ximenez or Moscatel (Muscat) grapes.</grapes>
+        <flavor>Generally sweet.</flavor>
+        <pairing>Consume as an aperitif or pair with nuts.</pairing>
+    </wine>
+
+    <wine>
+        <type>Fortified Wine</type>
+        <variety>Vermouth</variety>
+        <origin>Commonly Italian and French.</origin>
+        <grapes>Primarily Clairette blanche, Piquepoul, Catarratto, and Trebbiano. Vermouth is also flavored with a variety of herbs and spices (depending on producer).</grapes>
+        <flavor>Herbal and the dry vermouths (white) are generally more bitter than the sweet (red) varieties.</flavor>
+        <pairing>Vermouth is most commonly used as an ingredient in cocktails (notably Martinis, Manhattans, Negronis, and Boulevardier). When consumed alone, Vermouth is often an aperitif or digestif.</pairing>
+    </wine>
+
+
+</guide>

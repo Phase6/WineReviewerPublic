@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_reviews"
+        android:icon="@drawable/glass2"
+        android:title="@string/title_reviews" />
+
+    <item
+        android:id="@+id/navigation_cellar"
+        android:icon="@drawable/bottle"
+        android:title="@string/title_cellar" />
+
+    <item
+        android:id="@+id/navigation_popular_reviews"
+        android:icon="@drawable/baseline_public_white_36dp"
+        android:title="@string/title_popular" />
+
+    <item
+        android:id="@+id/navigation_guide"
+        android:icon="@drawable/baseline_import_contacts_black_36dp"
+        android:title="@string/title_guide" />
+
+</menu>
